@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EL MEDIO AMBIENTE</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="explorar.html">Explorar</a></li>
+                <li><a href="articulos.html">Artículos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="carousel-slide">
+                        <img src="fondo.jpeg" alt="Imagen 1" class="carousel-image">
+                        <img src="planta.jpg" alt="Imagen 2" class="carousel-image">
+                        <img src="reutili.jpeg" alt="Imagen 3" class="carousel-image">
+                    </div>
+                </div>
+                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="next" onclick="moveSlide(1)">&#10095;</button>
+                <div class="carousel-caption">
+                    <h1>CUIDEMOS NUESTRO MEDIO AMBIENTE</h1>
+                    <p>Descubre la belleza de la naturaleza en nuestro planeta.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="explore">
+            <h2>Las tres R</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="reducir.jpg" alt="Reducir">
+                    <p>Reducir: Al evitar las bolsas de plástico se reduce la producción de residuos.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="reutilizar.jpg" alt="Reutilizar">
+                    <p>Reutilizar: Los envases desechados pueden utilizarse para decorar la casa.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="reciclar.jpg" alt="Reciclar">
+                    <p>Reciclar: Los materiales no biodegradables pueden reciclarse para volver a ser materia prima.</p>
+                </div>
+            </div>
+        </section>
+        <section id="articles">
+            <h2>El medio ambiente y La importancia del reciclaje:</h2>
+            <article>
+                <h3>El Reciclaje</h3>
+                <p>El reciclaje es el proceso que consiste en recolectar y transformar los residuos o materiales de desecho en nuevas materias o productos para su reutilización.</p>
+                <a href="#">Leer más</a>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Exploración y Naturaleza. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
